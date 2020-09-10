@@ -1,0 +1,13 @@
+  .header__lang-link-item:nth-child(1){
+  margin-right: 18px;
+}
+  
+.header__lang-link-item {
+  padding-bottom: 6px;
+}
+
+@media screen and (max-width: 540px) {
+  .header__lang-link-item {
+    padding-bottom: 8px;
+  }
+}
