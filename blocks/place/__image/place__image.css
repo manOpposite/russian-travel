@@ -3,3 +3,10 @@
   object-fit: cover;  
   width: 100%;
 }
+
+@media screen and (max-width: 540px) {
+  .place__image {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}

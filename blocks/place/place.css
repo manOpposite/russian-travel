@@ -3,7 +3,7 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, min-content);
+  /*grid-template-rows: repeat(2, min-content);*/
   grid-template-areas:
   "title website"
   "image text";
@@ -37,12 +37,6 @@
 
 @media screen and (max-width: 540px) {
   .place {
-    grid-row-gap: 32px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .place {
     display: flex;
     flex-direction: column;
   }
@@ -51,3 +45,5 @@
     margin-top: 48px;
   }
 }
+
+
